@@ -34,8 +34,8 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div id='experience' className="bg-black pb-12 pt-16 text-white">
-      <h2 className="heading mb-10 text-center">Education & <span className='text-yellow-400'>Experience</span></h2>
+    <div id='experience' className="bg-black pb-16 pt-16 text-white">
+      <h2 className="heading mb-16 text-center">Education & <span className='text-yellow-400'>Experience</span></h2>
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
         {/* Education Section */}
         <div data-aos='fade-right'>

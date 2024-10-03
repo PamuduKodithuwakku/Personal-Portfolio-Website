@@ -82,7 +82,7 @@ const Skills = () => {
       <h2 className="heading text-white text-3xl text-center mb-8">
         Ski<span className="text-yellow-400">lls</span>
       </h2>
-      <div className="flex flex-col md:flex-row w-[90%] mt-[4rem] mx-auto gap-8">
+      <div className="flex flex-col md:flex-row w-[90%] mt-[4rem] mx-auto justify-between gap-8">
         <div className="p-6 w-full md:w-[45%] bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-500 ease-in-out">
           {skills1.map((skill, index) => (
             <SkillBar

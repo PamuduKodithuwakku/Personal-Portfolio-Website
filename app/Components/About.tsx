@@ -11,7 +11,7 @@ const About = () => {
           </h1>
           <div className="flex items-center mb-[3rem] justify-center md:justify-start">
             <span className="w-[100px] hidden md:block h-[5px] bg-gray-500 rounded-sm"></span>
-            <p data-aos="fade-left" className="text-lg text-gray-300 leading-relaxed ml-[1.5rem] md:ml-[2rem]">
+            <p data-aos="fade-left" className="text-lg md:text-xl text-gray-300 leading-relaxed ml-[1.5rem] md:ml-[2rem]">
               I am currently pursuing a BSc.(Hons) in Information Technology at the University of Moratuwa. As a full-stack developer, 
               I have a passion for learning new technologies and a strong interest in the DevOps field. My goal is to utilize my skills 
               and expertise to bridge the gap between development and operations, ensuring efficient, reliable, and smooth software 

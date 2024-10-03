@@ -30,7 +30,7 @@ const Contact:React.FC = () => {
 
   return (
     <div id='contact' className="w-full bg-gray-800 py-10 px-6 md:px-12 lg:px-24">
-      <h2 className="heading mb-6">
+      <h2 className="heading mb-12">
         Contact <span className='text-yellow-400'>Me</span>
       </h2>
       <div data-aos='fade-up' className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-10">

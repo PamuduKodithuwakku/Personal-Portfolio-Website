@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,4 +18,5 @@
   .heading {
       @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase
   }
+  
 }
