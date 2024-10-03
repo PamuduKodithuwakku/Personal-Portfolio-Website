@@ -30,8 +30,8 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div id='projects' className='bg-[#02050a] pt-16 md:pt-32 pb-12'>
-      <h1 className='heading text-center text-4xl font-bold text-white mb-10'>
+    <div id='projects' className='bg-[#02050a] pt-[6rem] md:pt-[8rem] pb-12'>
+      <h1 className='heading mb-12'>
         Pro<span className='text-yellow-400'>jects</span>
       </h1>
       <div className='w-[90%] pt-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>

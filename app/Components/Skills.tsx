@@ -78,8 +78,8 @@ const Skills = () => {
   ];
 
   return (
-    <div id="skills" ref={skillsRef} className="bg-black pb-[3rem] pt-[4rem] md:pt-[8rem]">
-      <h2 className="heading text-white text-3xl text-center mb-8">
+    <div id="skills" ref={skillsRef} className="bg-black pb-[3rem] pt-[6rem] md:pt-[8rem] scroll-mt-[10vh]">
+      <h2 className="heading mb-12">
         Ski<span className="text-yellow-400">lls</span>
       </h2>
       <div className="flex flex-col md:flex-row w-[90%] mt-[4rem] mx-auto justify-between gap-8">

@@ -29,7 +29,7 @@ const Contact:React.FC = () => {
   };
 
   return (
-    <div id='contact' className="w-full bg-gray-800 py-10 px-6 md:px-12 lg:px-24">
+    <div id='contact' className="w-full bg-gray-800 py-10 px-6 md:px-12 lg:px-24 scroll-mt-[10vh]">
       <h2 className="heading mb-12">
         Contact <span className='text-yellow-400'>Me</span>
       </h2>

@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/16/solid';
 
 const Me = () => {
   return (
-    <div id="home" className="bg-black mt-[10vh]">
+    <div id="home" className="bg-black mt-[10vh] scroll-mt-[10vh]">
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold mt-16 lg:mt-0">
