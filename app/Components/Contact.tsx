@@ -18,11 +18,11 @@ const Contact:React.FC = () => {
         'OGrzTRiRAhztyQja2'
       ).then(
         () => {
-          alert('Email sent successfully!');
+          alert('Message sent successfully!');
         }, 
         (error) => {
           console.error('Error:', error.text);
-          alert('Failed to send email.');
+          alert('Failed to send message.');
         }
       );
     }

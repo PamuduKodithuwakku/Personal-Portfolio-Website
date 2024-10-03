@@ -25,13 +25,14 @@ const Me = () => {
           </button>
         </div>
 
-        <div className="relative w-[300px] h-[300px] mx-auto mt-8 lg:mt-16 flex items-center justify-center md:w-[400px] md:h-[400px] xl:w-[500px] xl:h-[500px]">
+        <div className="relative w-[300px] h-[300px] mx-auto mt-8 lg:mt-20 flex items-center justify-center md:w-[400px] md:h-[400px] xl:w-[500px] xl:h-[500px]">
           <Image
             src="/images/Me0.png"
             alt="me"
             layout="fill"
             objectFit="contain"
             className="object-cover rounded-full"
+            data-aos='zoom-in'
           />
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
@@ -40,22 +41,24 @@ const Me = () => {
             viewBox="0 0 500 500"
           >
             <motion.circle
-              cx="253" 
-              cy="253" 
-              r="250"  
-              stroke="#00ff99" 
+              cx="253"
+              cy="253"
+              r="250"
+              stroke="#00ff99"
               strokeWidth="4"
               strokeLinecap="round"
               strokeLinejoin="round"
-              initial={{ strokeDasharray: "24 10 0 0" }} 
-              animate={{ 
+              initial={{ strokeDasharray: "0 250" }} // Start without any visible stroke
+              animate={{
                 strokeDasharray: ["15 120 25 25", "16 25 92 72", "4 250 22 22"],
                 rotate: [120, 360],
-              }} 
-              transition={{ 
+              }}
+              transition={{
+                delay: 0.5, // Delay the start slightly for smoothness
                 duration: 20,
-                repeat: Infinity, 
-                repeatType: "reverse", 
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "reverse",
               }}
             />
           </motion.svg>
