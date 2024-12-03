@@ -5,7 +5,8 @@ const education = [
     year: "2022 - Present",
     role: "University of Moratuwa",
     company1: "BSc.(Hons) in Information Technology",
-    description1: "Studying core IT subjects and engaging in software development projects."
+    description1: "Studying core IT subjects and engaging in software development projects.",
+    list1: "CGPA - 3.5/4.0 (End of 4 semesters)"
   },
   {
     year: "2007 - 2020",
@@ -48,8 +49,17 @@ const Experience = () => {
                 <h3 className="text-yellow-400 text-xl font-bold">{edu.role}</h3>
                 <h4 className="text-lg text-gray-300">{edu.company1}</h4>
                 <p className="mt-4 text-gray-300">{edu.description1}</p>
-                <h4 className="text-lg text-gray-300 mt-10">{edu.company2}</h4>
-                <p className="mt-4 text-gray-300">{edu.description2}</p>
+                {edu.list1 && (
+                  <ul>
+                    <li className='list-disc ml-8 mt-4 text-gray-300'>{edu.list1}</li>
+                  </ul>
+                )}
+                {edu.company2 && (
+                  <h4 className="text-lg text-gray-300 mt-10">{edu.company2}</h4>
+                )}
+                {edu.description2 && (
+                  <p className="mt-4 text-gray-300">{edu.description2}</p>
+                )}
               </li>
             ))}
           </ul>
