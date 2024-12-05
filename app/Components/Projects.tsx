@@ -24,7 +24,7 @@ const projects = [
     title: 'Automated Hydroponic Farming Chamber',
     description: 'A smart farming system with automated environmental control using sensors and microcontrollers.',
     imageSrc: '/images/p4.png',
-    link: 'https://www.linkedin.com/posts/amalsha-madunethmi-22879a268_exmo23-hardwareproject-hydroponics-ugcPost-7241349257138503681-FLq7?utm_source=share&utm_medium=member_android',
+    link: 'https://www.linkedin.com/posts/pamudu-kodithuwakku-68930428b_exmo23-hardwareproject-hydroponics-activity-7252527784080617472-Dwic?utm_source=share&utm_medium=member_android',
   }
 ];
 

@@ -22,14 +22,14 @@ const experiences = [
   {
     company: "Rotaract Club of University of Moratuwa",
     role: "Member",
-    duration: "Jan 2024 - Aug 2024",
-    description: "Worked on building scalable web applications using React and Node.js."
+    duration: "June 2022 - Aug 2023",
+    description: "Actively contributed to multiple social, environmental, and entertainment projects as an Organizing Committee (OC) member, collaborating with diverse teams to plan, execute, and manage impactful initiatives aimed at community development and social well-being."
   },
   {
     company: "IEEE Student Branch - University of Moratuwa",
     role: "Member",
     duration: "Sep 2023 - Dec 2023",
-    description: "Developed a food ordering system using Next.js and MongoDB."
+    description: "Actively contributed as an Organizing Committee (OC) member, helping to plan and execute various events and initiatives within the IEEE Student Branch.."
   }
 ];
 
